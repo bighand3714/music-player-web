@@ -920,7 +920,6 @@ class AudioPlay extends Component {
 
           .process {
             width: 100%;
-            /* background: #eaeaea; */
             box-shadow: 1px 1px 1px #000;
             background: #000;
             height: 8px;
@@ -1173,7 +1172,6 @@ class AudioPlay extends Component {
             vertical-align: middle;
             margin-left: 10px;
             text-align: center;
-            /* line-height: 16px; */
           }
 
           .music-list-common-text {
@@ -1358,7 +1356,6 @@ class AudioPlay extends Component {
             height: 260px;
             overflow: hidden;
             background: gray;
-            /* opacity: 0.01; */
           }
         `}</style>
         <style jsx>{`
@@ -1436,26 +1433,10 @@ class AudioPlay extends Component {
             content: "\e909";
             color: #fff;
           }
-          {/* .icon-next:before {
-            content: "\e90a";
-            color: #fff;
-          } */}
-          {/* .icon-pause:before {
-            content: "\e90b";
-            color: #fff;
-          } */}
           .jsx-1127568613  {
             content: "\e90b";
             color: #fff;
           }
-          {/* .icon-play:before {
-            content: "\e90c";
-            color: #fff;
-          } */}
-          {/* .icon-prev:before {
-            content: "\e90d";
-            color: #fff;
-          } */}
           .icon-share:before {
             content: "\e90e";
             color: #fff;
