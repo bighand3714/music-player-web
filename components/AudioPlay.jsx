@@ -24,9 +24,6 @@ import {
   CircuSingleIcon,
 } from './Icon'
 
-// import "./AudioPlay.css";
-// import "./style.css";
-
 /**
  * 前端音乐播放器
  * create by willghy
@@ -519,7 +516,6 @@ class AudioPlay extends Component {
       isMusicListShow,
       currentMucicUrl,
     } = this.state;
-    // const { title, info, img, resource, id } = currentMusic || {};
     const title = currentMusic.name || {}
     const info = currentMusic.ar[0].name || {}
     const img = currentMusic.al.picUrl || {}
@@ -529,9 +525,6 @@ class AudioPlay extends Component {
     const { musicList } = this.state;
     let playModeIcon = "";
     let playIcon
-  // CircuListIcon,
-  // CircuRandomIcon,
-  // CircuSingleIcon,
     switch (playMode) {
       case 1:
         playModeIcon = "icon-circulation-list";
@@ -838,8 +831,6 @@ class AudioPlay extends Component {
             position: relative;
             top: 8px;
             height: 44px;
-            /* padding: 6px 0 0 0; */
-            /* top: 6px; */
           }
 
           /* 控制器布局*/
@@ -1359,19 +1350,7 @@ class AudioPlay extends Component {
           }
         `}</style>
         <style jsx>{`
-          {/* @font-face {
-            font-family: 'icomoon';
-            src:  url('fonts/icomoon.eot?k56501');
-            src:  url('fonts/icomoon.eot?k56501#iefix') format('embedded-opentype'),
-              url('fonts/icomoon.ttf?k56501') format('truetype'),
-              url('fonts/icomoon.woff?k56501') format('woff'),
-              url('fonts/icomoon.svg?k56501#icomoon') format('svg');
-            font-weight: normal;
-            font-style: normal;
-          }
-
-          [class^="icon-"], [class*=" icon-"] {
-            /* use !important to prevent issues with browser extensions that change fonts */
+          {
             font-family: 'icomoon' !important;
             speak: none;
             font-style: normal;

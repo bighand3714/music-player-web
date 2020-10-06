@@ -5,8 +5,6 @@ import { connect } from 'react-redux'
 import Router, { withRouter } from 'next/router'
 import Link from 'next/link'
 
-// import CoolPlayer from 'react-cool-music-player'
-
 import {
     Button,
     Layout,
